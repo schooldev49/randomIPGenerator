@@ -14,8 +14,9 @@ vector<int> nums;
      nums.insert(nums.end(),i);
    } 
    int size = nums.size();
-  
-   return nums[rand() % end + start];
+   int e = rand();
+   int hello = e % end + start;
+   return nums[hello - 10];
    
    
 }
